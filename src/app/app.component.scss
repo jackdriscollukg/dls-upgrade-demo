@@ -1,0 +1,24 @@
+@import '~@ignite/tokens/scss/ignite-tokens';
+@import '~@ignite/tokens/scss/ignite-tokens.mixins';
+
+.heading {
+  @include ukg-display-large-on-light();
+}
+
+.grid-example-box {
+  height: 500px;
+  width: 500px;
+  display: block;
+}
+
+.brand {
+  background-color: $ukg-brand;
+}
+
+.action {
+  background-color: $ukg-action;
+}
+
+.surface {
+  background-color: $ukg-surface-dark;
+}

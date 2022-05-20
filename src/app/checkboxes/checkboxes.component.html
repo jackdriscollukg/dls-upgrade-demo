@@ -1,0 +1,52 @@
+<h1 class="heading">Tree Example</h1>
+
+<ukg-tree aria-label="demo-tree" selectable>
+  <ukg-tree-item selectable>
+    <div slot="item">Tree item</div>
+  </ukg-tree-item>
+  <ukg-tree-item selectable-group>
+    <div slot="item">Tree item with subtree</div>
+    <ukg-tree-branch slot="branch">
+      <ukg-tree-item selectable>
+        <div slot="item">Subtree item 1</div>
+      </ukg-tree-item>
+      <ukg-tree-item selectable>
+        <div slot="item">
+          Subtree item 2: this one has a very long label because “why not?”, it
+          should be possible after all.
+        </div>
+      </ukg-tree-item>
+      <ukg-tree-item selectable>
+        <div slot="item">Subtree item 3</div>
+      </ukg-tree-item>
+      <ukg-tree-item selectable>
+        <div slot="item">Subtree item 4</div>
+      </ukg-tree-item>
+    </ukg-tree-branch>
+  </ukg-tree-item>
+  <ukg-tree-item selectable-group>
+    <div slot="item">Tree item with subtree</div>
+    <ukg-tree-branch slot="branch">
+      <ukg-tree-item selectable>
+        <div slot="item">Subtree item 1</div>
+      </ukg-tree-item>
+      <ukg-tree-item selectable-group>
+        <div slot="item">Subtree item 2 with subtree</div>
+        <ukg-tree-branch slot="branch">
+          <ukg-tree-item selectable>
+            <div slot="item">Subtree item 1</div>
+          </ukg-tree-item>
+          <ukg-tree-item selectable>
+            <div slot="item">Subtree item 2</div>
+          </ukg-tree-item>
+          <ukg-tree-item selectable>
+            <div slot="item">Subtree item 3</div>
+          </ukg-tree-item>
+          <ukg-tree-item selectable>
+            <div slot="item">Subtree item 4</div>
+          </ukg-tree-item>
+        </ukg-tree-branch></ukg-tree-item
+      ></ukg-tree-branch
+    ></ukg-tree-item
+  ></ukg-tree
+>
